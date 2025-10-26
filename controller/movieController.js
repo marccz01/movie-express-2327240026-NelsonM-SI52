@@ -80,7 +80,7 @@ export const deleteMovie = async (req, res)=>{
 
         if(!id){
             return res.status (500).json({
-                message : "ID move wajid di isi",
+                message : "Id movie wajid di isi",
                 data : null,
             })
         }
