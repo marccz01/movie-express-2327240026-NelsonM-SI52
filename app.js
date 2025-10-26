@@ -1,7 +1,7 @@
 import express from "express";
 import api from "./route/api.js";
 import database from "./config/database.js"
-import movieModel from "./models/movieModel.js";
+import movieModel from "./model/movieModel.js";
 
 const app = express()
 
